@@ -35,8 +35,6 @@ function calcular_edad(fecha){
     if (ano<=99) 
        ano +=1900 
 
-    var yearCurrent=hoy.getFullYear();
-
     //resto los años de las dos fechas 
     edad=hoy.getFullYear()- ano - 1; //-1 porque no se si ha cumplido años ya este año 
 
